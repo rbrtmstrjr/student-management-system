@@ -4,10 +4,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.calculator{
+    width: 300px;
+    height: 400px;
+}
+.calc{
+    width: 300px;
+}
 .login{
     width: 100vw;
     height: 100vh;
 }
+
+ion-icon {
+    font-size: 80px;
+    --ionicon-stroke-width: 12px;
+  }
 
 .background-circle1{
     height: 1400px;

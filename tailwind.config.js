@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./index.html'],
+  content: ['./*.html'],
   theme: {
     extend: {
       fontFamily: {
@@ -7,7 +7,8 @@ module.exports = {
       },
       colors: {
         primary: '#11823b',
-        bglight: '#FBFFFC'
+        bglight: '#F1F5F9',
+        primarylight: '#17A44B'
       }
     }
   },
