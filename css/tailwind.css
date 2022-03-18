@@ -528,6 +528,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 2.5rem;
 }
 
+.mx-0{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .mt-10{
   margin-top: 2.5rem;
 }
@@ -837,6 +842,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 0.75rem;
 }
 
+.p-0{
+  padding: 0px;
+}
+
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -1038,6 +1047,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     visibility: visible;
   }
 
+  .lg\:mx-6{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
   .lg\:block{
     display: block;
   }
@@ -1068,5 +1082,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:p-10{
     padding: 2.5rem;
+  }
+
+  .lg\:p-4{
+    padding: 1rem;
+  }
+
+  .lg\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
